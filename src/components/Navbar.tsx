@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import MobileMenu from './MobileMenu'
 import Image from 'next/image'
+import { ClerkLoaded, ClerkLoading, SignedIn, SignedOut } from '@clerk/nextjs'
 
 function Navbar() {
   return (
@@ -32,6 +33,17 @@ function Navbar() {
             </div>
             {/* RIGHT */}
             <div className='w-[30%] flex justify-end items-center gap-4 xl:gap-8'>
+                <ClerkLoading>
+
+                </ClerkLoading>
+                <ClerkLoaded>
+                    <SignedIn>
+                        Signed In
+                    </SignedIn>
+                    <SignedOut>
+                        Signed Out
+                    </SignedOut>
+                </ClerkLoaded>
                 <MobileMenu/>
             </div>
 
