@@ -16,16 +16,16 @@ function Navbar() {
             {/* CENTER */}
             <div className='hidden md:flex w-[40%]'>
                 <div className='flex gap-6'>
-                    <Link href={"/"} className='flex gap-2'>
-                        {/* <Image alt='Homepage' src={"/home.png"} width={16} height={16}></Image> */}
+                    <Link href={"/"} className='flex items-center gap-2'>
+                        <Image alt='Homepage' src={"/home.png"} width={16} height={16} className='w-4 h-4'></Image>
                         <span>Homepage</span>
                     </Link>
-                    <Link href={"/"} className='flex gap-2'>
-                        {/* <Image alt='Friends' src={""} width={16} height={16}></Image> */}
+                    <Link href={"/"} className='flex items-center gap-2'>
+                        <Image alt='Friends' src={"/friends.png"} width={16} height={16} className='w-4 h-4'></Image>
                         <span>Friends</span>
                     </Link>
-                    <Link href={"/"} className='flex gap-2'>
-                        {/* <Image alt='Stories' src={""} width={16} height={16}></Image> */}
+                    <Link href={"/"} className='flex items-center gap-2'>
+                        <Image alt='Stories' src={"/stories.png"} width={16} height={16} className='w-4 h-4'></Image>
                         <span>Stories</span>
                     </Link>
                 </div>
