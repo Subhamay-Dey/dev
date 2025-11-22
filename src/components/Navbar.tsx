@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import MobileMenu from './MobileMenu'
 import Image from 'next/image'
-import { ClerkLoaded, ClerkLoading, SignedIn, SignedOut } from '@clerk/nextjs'
+import { ClerkLoaded, ClerkLoading, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
 
 function Navbar() {
   return (
@@ -38,10 +38,22 @@ function Navbar() {
                 </ClerkLoading>
                 <ClerkLoaded>
                     <SignedIn>
-                        Signed In
+                        <div className="cursor-pointer">
+                            <Image src={"/people.png"} alt='' width={20} height={20}/>
+                        </div>
+                        <div className="cursor-pointer">
+                            <Image src={"/messages.png"} alt='' width={20} height={20}/>
+                        </div>
+                        <div className="cursor-pointer">
+                            <Image src={"/notifications.png"} alt='' width={20} height={20}/>
+                        </div>
+                        <UserButton/>
                     </SignedIn>
                     <SignedOut>
-                        Signed Out
+                        <div className='flex items-center gap-2 text-sm'>
+                            <Image src={"/login.png"} alt='' width={20} height={20}/>
+                            <Link href={"/sign-in"}>Login/Register</Link>
+                        </div>
                     </SignedOut>
                 </ClerkLoaded>
                 <MobileMenu/>
