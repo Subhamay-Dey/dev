@@ -1,12 +1,8 @@
-export default async function BlogPostPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>
-}) {
+export default async function BlogPostPage() {
  
   return (
     <div>
-      <h1>{(await params).slug}</h1>
+      Profile
     </div>
   )
 }
