@@ -12,7 +12,7 @@ function Navbar() {
             <div className='md:hidden lg:block w-[20%]'>
                 <Link href={"/"} className='font-bold text-xl text-blue-600'>DEVSOCIAL</Link>
             </div>
- 
+
             {/* CENTER */}
             <div className='hidden md:flex w-[40%] items-center justify-between'>
                 <div className='flex gap-6'>
@@ -33,8 +33,8 @@ function Navbar() {
                     <input type='text' placeholder='Search...' className='bg-transparent outline-none'/>
                     <Image src={"/search.png"} alt='' width={14} height={14}/>
                 </div>
-
             </div>
+            
             {/* RIGHT */}
             <div className='w-[30%] flex justify-end items-center gap-4 xl:gap-8'>
                 <ClerkLoading>
@@ -62,7 +62,6 @@ function Navbar() {
                 </ClerkLoaded>
                 <MobileMenu/>
             </div>
-
         </div>
     </>
 )
