@@ -2,7 +2,9 @@ import React from 'react'
 
 function Stories() {
   return (
-    <div>Stories</div>
+    <div className='p-4 '>
+
+    </div>
   )
 }
 
