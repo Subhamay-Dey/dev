@@ -2,7 +2,7 @@ import React from 'react'
 
 function Stories() {
   return (
-    <div className='p-4 '>
+    <div className='p-4'>
 
     </div>
   )
