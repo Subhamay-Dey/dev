@@ -11,6 +11,7 @@ function Post() {
           <span className='font-medium'>Subhamay Dey</span>
         </div>
       </div>
+      <Image src={"/more.png"} alt='' width={16} height={16}/>
       {/* DESC */}
       <div className=''>
 
