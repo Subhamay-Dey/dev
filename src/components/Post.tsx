@@ -13,8 +13,11 @@ function Post() {
       </div>
       <Image src={"/more.png"} alt='' width={16} height={16}/>
       {/* DESC */}
-      <div className=''>
-
+      <div className='flex flex-col gap-4'>
+        <div className='w-full min-h-96 relative'>
+          <Image src={"https://i.pinimg.com/736x/22/bf/ac/22bfac5521353a98b130f0886a0d2918.jpg"} alt='' fill className='object-cover rounded-md'/>
+        </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique tempore reprehenderit quos perspiciatis temporibus sed, ea et aliquid expedita facilis! Laudantium labore dignissimos nisi tempora repellendus ad, dolorem voluptates ducimus!</p>
       </div>
       {/* INTERACTION */}
       <div className=''>
