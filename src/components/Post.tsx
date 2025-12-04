@@ -20,8 +20,10 @@ function Post() {
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique tempore reprehenderit quos perspiciatis temporibus sed, ea et aliquid expedita facilis! Laudantium labore dignissimos nisi tempora repellendus ad, dolorem voluptates ducimus!</p>
       </div>
       {/* INTERACTION */}
-      <div className=''>
-
+      <div className='flex items-center justify-between text-sm'>
+        <div className='flex gap-8'>
+          
+        </div>
       </div>
     </div>
   )
