@@ -22,7 +22,11 @@ function Post() {
       {/* INTERACTION */}
       <div className='flex items-center justify-between text-sm'>
         <div className='flex gap-8'>
-          
+          <div className='flex items-center gap-4 bg-slate-100 p-2 rounded-xl'>
+            <Image src={"/like.png"} alt='' width={16} height={16} className='cursor-pointer'/>
+            <span>|</span>
+            <span>123</span>
+          </div>
         </div>
       </div>
     </div>
