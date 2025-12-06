@@ -24,8 +24,13 @@ function Post() {
         <div className='flex gap-8'>
           <div className='flex items-center gap-4 bg-slate-100 p-2 rounded-xl'>
             <Image src={"/like.png"} alt='' width={16} height={16} className='cursor-pointer'/>
-            <span>|</span>
-            <span>123</span>
+            <span className='text-gray-300'>|</span>
+            <span className='text-gray-500'>123<span className='hidden md:inline'>Likes</span></span>
+          </div>
+          <div className='flex items-center gap-4 bg-slate-100 p-2 rounded-xl'>
+            <Image src={"/comment.png"} alt='' width={16} height={16} className='cursor-pointer'/>
+            <span className='text-gray-300'>|</span>
+            <span className='text-gray-500'>123<span className='hidden md:inline'>Comments</span></span>
           </div>
         </div>
       </div>
