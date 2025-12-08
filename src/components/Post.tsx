@@ -4,7 +4,7 @@ import React from 'react'
 function Post() {
   return (
     <div className='flex flex-col gap-4'>
-      {/*USER*/}
+      {/* USER */}
       <div className='flex items-center justify-between'>
         <div className='flex items-center gap-4'>
           <Image src={"https://i.pinimg.com/736x/ae/60/98/ae6098078360d7ec1cc2add3df692b3d.jpg"} alt='' width={40} height={40} className='w-10 h-10 rounded-full'/>
