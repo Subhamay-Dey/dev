@@ -37,7 +37,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="w-full bg-white px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
+        <div className="w-full bg-white px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 sticky top-0 z-50 shadow-sm">
           <Navbar/>
         </div>
         <div className="w-full bg-slate-100 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
@@ -45,6 +45,6 @@ export default function RootLayout({
         </div>
       </body>
     </html>
-        </ClerkProvider>
+    </ClerkProvider>
   );
 }
