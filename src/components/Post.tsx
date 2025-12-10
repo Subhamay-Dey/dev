@@ -36,16 +36,18 @@ function Post() {
               <span className='hidden md:inline p-2'>Comments</span>
             </span>
           </div>
-          <div className='flex items-center gap-4 bg-slate-100 rounded-xl p-2 '>
-            
-            <Image src={"/share.png"} alt='' width={16} height={16} className='cursor-pointer'/>
-            <span className='text-gray-300'>|</span>
-            <span className='text-gray-500'>123
-              <span className='hidden md:inline p-2'>Shares</span>
-            </span>
-          </div>
         </div>
+        <div className='flex items-center gap-4 bg-slate-100 p-2 rounded-xl'>
+          <Image src={"/share.png"} alt='' width={16} height={16} className='cursor-pointer'/>
+          <span className='text-gray-300'>|</span>
+          <span className='text-gray-500'>
+            123
+            <span className='hidden md:inline p-2'>Shares</span>
+          </span>
+        </div>
+
       </div>
+
     </div>
   )
 }
